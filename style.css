@@ -35,6 +35,76 @@
         --smaller-font-size: .875rem;
     }
 }
+/*adu*/
+#pathImg{
+    width: 25%;
+
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.education__container{
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: initial;
+}
+.box1{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 280px;
+    background: rgba( 123, 102, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#section5Box1{
+
+}
+
+#section5Box2{
+    margin-left: auto;
+    top: 15vh;
+}
+
+#section5Box3{
+    /*top: 52vh;*/
+    margin-top: 45px;
+}
+
+#section5Box4{
+    margin-left: auto;
+    top: 115px;
+}
+
+#graduationLogo{
+    width: 5%;
+    top: 37vh;
+    right: 12vw;
+}
+
+#degreeLogo{
+    width: 5%;
+}
+
+#alLogo{
+    width: 4%;
+    top: 64vh;
+}
+
+#olLog{
+    width: 3%;
+    top: 75vh;
+}
+
+
+
 
 /*===== BASE =====*/
 *, ::before, ::after {

@@ -89,6 +89,16 @@ const sr = ScrollReveal({
 });
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
-sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img, .education__path',{delay: 400});
-sr.reveal('.home__social-icon, .box1',{ interval: 200});
+sr.reveal('.home__img, .about__subtitle, .about__text, .btnCv, .skills__img, .education__path, .col, .skills__tag, .sw_p, .contactIcon',{delay: 400});
+sr.reveal('.home__social-icon, .box1, .skills__p',{ interval: 200});
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
+
+const sr2 = ScrollReveal({
+    origin: 'right',
+    distance: '80px',
+    duration: 2000,
+    delay: 200,
+//     reset: true
+});
+
+sr2.reveal('.section-title',{delay: 400});
